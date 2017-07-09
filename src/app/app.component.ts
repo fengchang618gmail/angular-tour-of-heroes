@@ -32,4 +32,5 @@ export class AppComponent {
 	onSelected(hero: Hero): void {
 		this.selectedHero = hero;
 	}
+
 }
