@@ -8,7 +8,7 @@ import { HeroesComponent } from './heroes.component';
 const routers: Routes = [
 	{ path: '', redirectTo: '/dashboard', pathMatch: 'full' },
 	{ path: 'dashboard', component: DashboardComponent },
-	{ path:  'detail/:id', component: HeroesComponent },
+	{ path:  'detail/:id', component: HeroDetailComponent },
 	{ path: 'heroes', component: HeroesComponent }
 ];
 
