@@ -28,4 +28,5 @@ export class HeroesComponent implements OnInit{
 		this.selectedHero = hero;
 	}
 
+
 }
